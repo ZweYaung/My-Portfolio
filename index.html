@@ -51,16 +51,13 @@
               <a class="nav-link active text-danger" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#about-me">About Me</a>
+              <a class="nav-link text-danger" href="#education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-danger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-danger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger" href="#members">Team Members</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-danger" href="#contact">Contact</a>
@@ -74,7 +71,7 @@
     <section class="home" id="home">
       <div class="container-lg">
         <div class="row align-items-center px-3">
-          <div class="col-md-6">
+          <div class="col-md-6 mt-4 mt-md-0">
             <div class="text-center">
               <img
                 class="rounded-circle"
@@ -85,21 +82,22 @@
               />
             </div>
           </div>
+
           <div class="col-md-6 order-md-first mt-5">
             <p class="text-muted">Hello I'm a</p>
             <h1 class="text-danger fw-bold text-uppercase">Web Developer</h1>
             <h2>Zwe Yaung Ni Thit</h2>
             <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed sint
-              eligendi accusantium tempore illum fugiat voluptas, accusamus
-              repellat ratione numquam quos debitis quo placeat repellendus
-              dicta harum repudiandae assumenda est!
+              I’m a final-year Computer Science student and an aspiring Junior
+              Developer who loves turning ideas into clean, efficient, and
+              user-friendly software. I enjoy learning new technologies and
+              building real-world projects that help me grow as a developer.
             </p>
             <a
               href="https://static-cse.canva.com/blob/1950257/1131w-T9RPR4DPdiw.jpg"
             >
-              <button class="btn btn-danger rounded text-white shadow-sm">
-                My work
+              <button class="btn btn-danger p-2 rounded text-white shadow-sm">
+                Download my resume
               </button>
             </a>
           </div>
@@ -107,149 +105,202 @@
       </div>
     </section>
 
-    <!-- About Me Section -->
-    <section class="about-me" id="about-me">
+    <!-- Education -->
+    <section class="education py-5" id="education">
       <div class="container-lg">
-        <div class="row">
-          <div class="col-4 offset-4 text-center">
-            <h2 class="fw-bold">About Me</h2>
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold">Education</h2>
+            <span
+              style="
+                display: block;
+                width: 120px;
+                height: 4px;
+                background: #dc3545;
+                margin: 5px auto;
+                border-radius: 2px;
+              "
+            ></span>
           </div>
         </div>
 
-        <div class="row mt-5">
-          <!-- Left Column: Info & Stats -->
+        <div class="row g-4">
+          <!-- Education Item 1 -->
           <div class="col-md-6">
-            <h3>Freelancer</h3>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur consequuntur assumenda quo? Neque, ab? Illum quo sequi
-              unde quibusdam exercitationem non possimus, quod, soluta, sunt
-              nostrum officia rem nesciunt itaque.
-            </p>
-
-            <div class="row">
-              <div class="col text-center">
-                <h1 class="fw-bold">100+</h1>
-                <p class="text-muted text-uppercase">Projects completed</p>
+            <div class="edu-card p-4 shadow-sm rounded h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="./Media/uos-logo.png" width="40" class="me-3" />
+                <h5 class="fw-bold mb-0">B.Sc (Hons) Computer Science</h5>
               </div>
-              <div class="col text-center">
-                <h1 class="fw-bold">90+</h1>
-                <p class="text-muted text-uppercase">Happy clients</p>
-              </div>
-              <div class="col text-center">
-                <h1 class="fw-bold">90+</h1>
-                <p class="text-muted text-uppercase">Positive reviews</p>
-              </div>
+              <p class="text-muted mb-1">
+                <strong>University of Sunderland</strong>
+              </p>
+              <p class="text-muted">Final Year</p>
+              <p>
+                Currently pursuing a degree in Computer Science focused on
+                software development, algorithms, databases, and full-stack web
+                development.
+              </p>
             </div>
-
-            <span class="d-flex align-items-center mt-3">
-              <a
-                href="https://static-cse.canva.com/blob/1950257/1131w-T9RPR4DPdiw.jpg"
-                download
-              >
-                <button
-                  class="btn btn-danger rounded text-white shadow-sm me-3"
-                >
-                  Download my Resume
-                </button>
-              </a>
-              <i class="fa-brands fa-facebook mx-2 fs-3"></i>
-              <i class="fa-brands fa-instagram mx-2 fs-3"></i>
-              <i class="fa-brands fa-x-twitter mx-2 fs-3"></i>
-              <i class="fa-brands fa-github mx-2 fs-3"></i>
-            </span>
           </div>
 
-          <!-- Right Column: Skills -->
+          <!-- Education Item 2 -->
           <div class="col-md-6">
-            <div class="row">
-              <!-- Nested Column 1 -->
-              <div class="col-md-6">
-                <div class="mb-3">
-                  <h5>HTML</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 75%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <h5>CSS</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 85%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <h5>JavaScript</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 60%"
-                    ></div>
-                  </div>
-                </div>
+            <div class="edu-card p-4 shadow-sm rounded h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG536_HpBHfNezdapqjMf4m3ylorfWSEbj2A&s"
+                  width="40"
+                  class="me-3"
+                />
+                <h5 class="fw-bold mb-0">
+                  Higher Diploma in Infocomm Technology
+                </h5>
               </div>
+              <p class="text-muted mb-1">
+                <strong>TMC Academy / British United College</strong>
+              </p>
+              <p class="text-muted">2023 – 2025</p>
+              <p>
+                Studied database management, C#, C++, android development with
+                Java system analysis, software engineering, and full-stack
+                development fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <!-- Nested Column 2 -->
-              <div class="col-md-6">
-                <div class="mb-3">
-                  <h5>React</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 70%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <h5>Laravel</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 65%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <h5>Node.js</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 60%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
+    <!-- skills -->
+    <section class="skills py-5" id="skills">
+      <div class="container-lg">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold position-relative d-inline-block pb-2">
+              Skills & Technologies
+              <span
+                style="
+                  display: block;
+                  width: 200px;
+                  height: 4px;
+                  background: #dc3545;
+                  margin: 5px auto;
+                  border-radius: 2px;
+                "
+              ></span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="card shadow p-5 border-0">
+          <div class="row g-4 justify-content-center">
+            <!-- HTML -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">HTML</h6>
             </div>
 
-            <!-- Optional extra skills row under nested columns -->
-            <div class="row mt-3">
-              <div class="col-md-6">
-                <div class="mb-3">
-                  <h5>Python</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 75%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="mb-3">
-                  <h5>SQL</h5>
-                  <div class="progress">
-                    <div
-                      class="progress-bar bg-danger"
-                      style="width: 80%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
+            <!-- CSS -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">CSS</h6>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">JavaScript</h6>
+            </div>
+
+            <!-- Jquery -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">jQuery</h6>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+                width="40"
+              />
+              <h6 class="mt-2">Bootstrap</h6>
+            </div>
+
+            <!-- Vue -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">Vue</h6>
+            </div>
+
+            <!-- Laravel -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">Laravel</h6>
+            </div>
+
+            <!-- PHP -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">PHP</h6>
+            </div>
+
+            <!-- MySQL -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">MySQL</h6>
+            </div>
+
+            <!-- Git -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">Git</h6>
+            </div>
+
+            <!-- GitHub -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">GitHub</h6>
+            </div>
+
+            <!-- Postman -->
+            <div class="col-4 col-md-2 text-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                width="40"
+              />
+              <h6 class="mt-2">Postman</h6>
             </div>
           </div>
         </div>
@@ -261,11 +312,22 @@
       <div class="container-lg">
         <div class="row mb-3">
           <div class="col-6 offset-3 text-center">
-            <h2 class="fw-bold">What I Do?</h2>
+            <h2 class="fw-bold">
+              What I Do?<span
+                style="
+                  display: block;
+                  width: 60px;
+                  height: 4px;
+                  background: #dc3545;
+                  margin: 5px auto;
+                  border-radius: 2px;
+                "
+              ></span>
+            </h2>
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-12 col-md-6 mb-3">
+          <div class="col-12 col-md-4 mb-3">
             <div class="bg-white shadow-lg rounded p-4 text-dark">
               <div class="my-3">
                 <i class="fa-solid fa-code text-danger fs-1"></i>
@@ -279,7 +341,21 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-6 mb-3">
+          <div class="col-12 col-md-4 mb-3">
+            <div class="bg-white shadow-lg rounded p-4 text-dark">
+              <div class="my-3">
+                <i class="fa-solid fa-lightbulb text-danger fs-1"></i>
+              </div>
+              <h4 class="fw-bold text-uppercase">Creative Ideas</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+                quo consequuntur accusamus aliquam doloremque dolorum
+                dignissimos eveniet aliquid quidem illum inventore consequatur
+                neque veniam, reiciendis impedit quis, quas saepe voluptates.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
             <div class="bg-white shadow-lg rounded p-4 text-dark">
               <div class="my-3">
                 <i class="fa-solid fa-lightbulb text-danger fs-1"></i>
@@ -302,7 +378,18 @@
       <div class="container-lg">
         <div class="row my-3">
           <div class="col-6 offset-3 text-center">
-            <h2 class="fw-bold">Latest Projects</h2>
+            <h2 class="fw-bold">
+              Projects<span
+                style="
+                  display: block;
+                  width: 60px;
+                  height: 4px;
+                  background: #dc3545;
+                  margin: 5px auto;
+                  border-radius: 2px;
+                "
+              ></span>
+            </h2>
           </div>
         </div>
         <div class="row mt-3">
@@ -338,71 +425,77 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="px-3" id="contact">
+    <section class="contact py-5" id="contact">
       <div class="container-lg">
-        <div class="row my-5">
-          <div class="col-6 offset-3 text-center">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
             <h2 class="fw-bold">Contact Me</h2>
+            <span
+              style="
+                display: block;
+                width: 120px;
+                height: 4px;
+                background: #dc3545;
+                margin: 5px auto;
+                border-radius: 2px;
+              "
+            ></span>
+            <p class="text-muted">
+              Feel free to reach out for work, collaboration, or a friendly
+              chat.
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-5 mb-4">
-            <div class="d-flex my-3">
-              <i class="fa-solid fa-phone text-danger fs-3 me-3"></i>
-              <div>
-                <div class="fs-5">Phone</div>
-                <div class="text-muted">+959123456</div>
-              </div>
-            </div>
-            <div class="d-flex my-3">
-              <i class="fa-solid fa-envelope text-danger fs-3 me-3"></i>
-              <div>
-                <div class="fs-5">Email</div>
-                <div class="text-muted">zweyaung@example.com</div>
-              </div>
-            </div>
-            <div class="d-flex my-3">
-              <i class="fa-solid fa-location-dot text-danger fs-3 me-3"></i>
-              <div>
-                <div class="fs-5">Location</div>
-                <div class="text-muted">Yangon</div>
-              </div>
+
+        <div class="row justify-content-center g-4">
+          <!-- Phone -->
+          <div class="col-md-4">
+            <div class="contact-card p-4 text-center rounded shadow-sm h-100">
+              <i class="fa-solid fa-phone fs-1 mb-3 text-danger"></i>
+              <h5 class="fw-bold">Phone</h5>
+              <p class="text-muted">Available on call or text</p>
+              <a
+                href="tel:+959123456789"
+                class="fw-bold text-decoration-none text-dark"
+              >
+                +959785177566
+              </a>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="row mb-3">
-              <div class="col-md-6 mb-3">
-                <input
-                  type="text"
-                  placeholder="Your name..."
-                  class="form-control form-control-lg shadow-sm rounded border-0"
-                />
+
+          <!-- Email -->
+          <div class="col-md-4">
+            <div class="contact-card p-4 text-center rounded shadow-sm h-100">
+              <i class="fa-solid fa-envelope fs-1 mb-3 text-danger"></i>
+              <h5 class="fw-bold">Email</h5>
+              <p class="text-muted">Send me a message anytime</p>
+              <a
+                href="mailto:example@gmail.com"
+                class="fw-bold text-decoration-none text-dark"
+              >
+                zweyaung9704@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Socials -->
+          <div class="col-md-4">
+            <div class="contact-card p-4 text-center rounded shadow-sm h-100">
+              <i class="fa-solid fa-share-nodes fs-1 mb-3 text-danger"></i>
+              <h5 class="fw-bold">Social</h5>
+              <p class="text-muted">Let's stay connected</p>
+
+              <div class="d-flex justify-content-center gap-3 fs-3">
+                <a
+                  href="https://www.linkedin.com/in/zwe-yaung-ni-thit-638941275"
+                  class="text-dark"
+                  ><i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/ZweYaung" class="text-dark"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
               </div>
-              <div class="col-md-6 mb-3">
-                <input
-                  type="email"
-                  placeholder="Your email..."
-                  class="form-control form-control-lg shadow-sm rounded border-0"
-                />
-              </div>
             </div>
-            <div class="mb-3">
-              <input
-                type="text"
-                placeholder="Subject"
-                class="form-control form-control-lg shadow-sm rounded border-0"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                placeholder="Message"
-                rows="6"
-                class="form-control form-control-lg shadow-sm rounded border-0"
-              ></textarea>
-            </div>
-            <button class="btn btn-danger rounded shadow-sm">
-              Send Message
-            </button>
           </div>
         </div>
       </div>
@@ -410,7 +503,7 @@
 
     <!-- Footer -->
     <footer class="px-3 pt-4 mt-5 border-top shadow-sm text-center text-muted">
-      <p>We Learn, We Share, We Code | This Laboratory is for all codes</p>
+      <p>Zwe Yaung Ni Thit</p>
     </footer>
 
     <!-- Bootstrap JS -->
